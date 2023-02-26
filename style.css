@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,100;1,400;1,500&display=swap');
 
 *{
     margin: 0;
@@ -63,7 +62,7 @@ font-size: 40px;
 }
 /* ==================About us=================== */
 .aboutus{
-    background-color: rgb(176, 172, 165);
+    background-color: rgb(34, 34, 34);
 }
 .aboutus1{
 display: flex;
@@ -71,24 +70,52 @@ display: flex;
 .image1 img{
     width: 36vw;
     height: 59vh;
-    margin: 7rem;
+    margin: 6rem;
     border-radius: 77px 10px 63px 10px;
-   box-shadow: 20px 5px 5px rgb(143, 135, 135);
-}
-.aboutus2 {
-    
-    width: 50%;
-    height: 100%;
+   box-shadow: 20px 5px 5px rgb(0, 0, 0);
+   
   
+}
+.image1 img:hover{
+    transition: margin-right 2s;
+    cursor: pointer;
+  }
+.aboutus2 {
+/*     
+    width: 50%;
+    height: 100%; */
     margin-left: 2rem;
     margin-right: 19rem;
-    margin-top: 15rem;}
+    margin-top: 8rem;}
+    .aboutus2 h2{
+        font-family:  'Poppins', sans-serif;
+        margin-left: 8rem;
+        color: rgb(236, 229, 229);
+        margin-top: 1rem;
+      
+        
+    }
     .aboutus2 p{
       font-family: 'Poppins', sans-serif;
-      font-weight: bolder;
-      color: black;
-       
+      /* font-weight: bolder; */
+      font-size: large;
+      line-height: 1.5rem; 
+      color: rgb(255, 255, 255);
       
+    }
+   
+    
+    .aboutushead h1{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        /* font-weight: bolder; */
+        font-size: 40px;
+        font-weight: 2px; 
+        margin-left: 30rem;
+        
+    }
+    .aboutushead span{
+        color: gold;
     }
 
 
