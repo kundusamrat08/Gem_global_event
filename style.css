@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.head{
+    display: flex;
+    background-color: rgb(31, 29, 29);
+}
+.head1 ul{
+    display: flex;
+    margin-left: 27rem;
+ 
+    
+}
+.head1 ul li{
+    list-style: none;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.head1 ul li a{
+  
+    font-family: Inter,sans-serif;
+ 
+    color: rgb(198, 202, 202);
+      font-size:18px;
+      text-decoration: none;
+
+}
+
+
+.head1 ul li a:hover {
+cursor: pointer;
+color: rgb(228, 199, 123);
+}
+
+.background{
+    background-image: url("background.jpeg");
+    height: 100vh;
+background-repeat: no-repeat;
+width: 100vw;
+background-size: cover;
+}
+
+.logo img{
+    width: 143px;
+    height: 104px;
+    margin-left: 31px;
+    margin-top: 13px;
+    cursor: pointer;
+}
+.background h2{
+color: rgb(255, 145, 0);
+font-family: Inter,sans-serif;
+margin-left: 40rem;
+line-height: 16rem;
+font-size: 40px;
+/* box-shadow: 10px 5px 5px black; */
+}
+
+
