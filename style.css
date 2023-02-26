@@ -9,6 +9,7 @@
 .head{
     display: flex;
     background-color: rgb(31, 29, 29);
+    position: sticky;
 }
 .head1 ul{
     display: flex;
@@ -60,5 +61,34 @@ line-height: 16rem;
 font-size: 40px;
 /* box-shadow: 10px 5px 5px black; */
 }
+/* ==================About us=================== */
+.aboutus{
+    background-color: rgb(176, 172, 165);
+}
+.aboutus1{
+display: flex;
+}
+.image1 img{
+    width: 36vw;
+    height: 59vh;
+    margin: 7rem;
+    border-radius: 77px 10px 63px 10px;
+   box-shadow: 20px 5px 5px rgb(143, 135, 135);
+}
+.aboutus2 {
+    
+    width: 50%;
+    height: 100%;
+  
+    margin-left: 2rem;
+    margin-right: 19rem;
+    margin-top: 15rem;}
+    .aboutus2 p{
+      font-family: 'Poppins', sans-serif;
+      font-weight: bolder;
+      color: black;
+       
+      
+    }
 
 
