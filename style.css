@@ -117,5 +117,33 @@ display: flex;
     .aboutushead span{
         color: gold;
     }
-    
-    
+.content{
+   
+    display: flex;
+margin-left: -14rem;
+}
+.mission_img img{
+    width: 69%;
+    height: 55%;
+    margin: 7rem;
+    border-radius: 41px;
+}
+.mission h1{
+    color: rgb(39, 39, 39);
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: bolder; */
+    font-size: 40px;
+    font-weight: 2px; 
+    margin-left: 30rem;  
+}
+.mission p{
+    font-family: 'Poppins', sans-serif;
+      /* font-weight: bolder; */
+      font-size: large;
+      line-height: 1.5rem; 
+      color: rgb(45, 44, 44);
+      margin-left: 20rem;
+}
+.mission{
+    margin-top: 20px;
+}
